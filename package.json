@@ -1,0 +1,33 @@
+{
+  "author": "Vladislav Kazantsev",
+  "bugs": {
+    "url": "https://github.com/Vladislav-Kazantsev/cv/issues"
+  },
+  "description": "This is my personal resume website that displays information about my successes and achievements in the IT industry",
+  "homepage": "https://github.com/Vladislav-Kazantsev/cv#readme",
+  "keywords": [
+    "Vladislav",
+    "frontend",
+    "developer",
+    "front",
+    "end",
+    "webdeveloper",
+    "web",
+    "development",
+    "personal",
+    "site",
+    "resume",
+    "cv"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "my-site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladislav-Kazantsev/cv.git"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "version": "1.0.0"
+}
