@@ -1,5 +1,5 @@
 a {
-  color: #11559E;
+  color: #11559e;
 }
 
 body {
@@ -15,30 +15,25 @@ div {
   margin: 0;
 }
 
-.footer-link {
-  font-family: verdana, sans-serif;
-  font-size: 17px;
-  margin-right: 1em;
-}
-
-.footer-link:last-of-type {
-  margin-right: 0;
+footer {
+  text-align: center;
+  padding: 2vh 0;
 }
 
 h1 {
   padding: 0;
   margin: 5% 0 0;
-  font-family: 'Belliocah', Arial, sans-serif;
+  font-family: "Belliocah", Arial, sans-serif;
   font-weight: normal;
   font-size: 6.25rem;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 2;
 }
 
 h2 {
   padding: 0;
   margin: 2% 0 2%;
-  font-family: 'FuturaPT', Arial, sans-serif;
+  font-family: "FuturaPT", Arial, sans-serif;
   font-weight: normal;
   color: #97cbff;
 }
@@ -46,14 +41,19 @@ h2 {
 h3 {
   padding: 0;
   margin: 2% 0 2%;
-  font-family: 'FuturaPT', Arial, sans-serif;
+  font-family: "FuturaPT", Arial, sans-serif;
   font-weight: normal;
-  color: #11559E;
+  color: #11559e;
 }
 
 h2 p {
   font-size: 2.5rem;
   color: #fff;
+}
+
+img {
+  padding: 0;
+  margin: 0;
 }
 
 p {
@@ -62,23 +62,30 @@ p {
   line-height: 1.7;
 }
 
-img {
-  padding: 0;
-  margin: 0;
+.contact-link {
+  font-family: verdana, sans-serif;
+  font-size: 17px;
+  margin-right: 1em;
+}
+
+.contact-link:last-of-type {
+  margin-right: 0;
 }
 
 .top-container {
-    background-color: lightskyblue;
-    color: azure;
-    position: relative;
-    padding: 100px 0 0 0;
-    align-items: center;
-    align-content: center;
+  background-color: lightskyblue;
+  color: azure;
+  position: relative;
+  padding: 100px 0 0 0;
+  align-items: center;
+  align-content: center;
 }
 
-.middle-container {}
+.middle-container {
+}
 
-.bottom-container {}
+.bottom-container {
+}
 
 .pro {
   text-decoration: underline;
@@ -98,16 +105,19 @@ img {
 }
 
 .mountain {
-    display: block;
-    padding: 2.5% 0 0;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-    align-content: center;
+  display: block;
+  padding: 2.5% 0 0;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  align-content: center;
 }
 
-.contact-me, .profile, .skills, .skill-row {
+.contact-me,
+.profile,
+.skills,
+.skill-row {
   margin: 35px auto;
   width: 75%;
 }
@@ -118,11 +128,13 @@ img {
   padding: 25px;
 }
 
-.skill-row:first-of-type h3, .skill-row:first-of-type p {
+.skill-row:first-of-type h3,
+.skill-row:first-of-type p {
   text-align: left;
 }
 
-.skill-row h3, .skill-row p {
+.skill-row h3,
+.skill-row p {
   margin: 2% 0;
   text-align: left;
 }
@@ -152,19 +164,18 @@ img {
 }
 
 @font-face {
-  font-family: 'Belliocah';
-  src: local('Belliocah'),
-    url('../fonts/Belliocah-51KBz.otf') format('opentype');
+  font-family: "Belliocah";
+  src: local("Belliocah"),
+    url("../fonts/Belliocah-51KBz.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FuturaPT';
-  src: local('FuturaPT'),
-    url('../fonts/FuturaPT-Book.ttf') format('truetype'),
-    url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/FuturaPT-Book.woff') format('woff');
+  font-family: "FuturaPT";
+  src: local("FuturaPT"), url("../fonts/FuturaPT-Book.ttf") format("truetype"),
+    url("../fonts/FuturaPT-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FuturaPT-Book.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
